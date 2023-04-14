@@ -17,6 +17,8 @@ echo "windows" >> .gitignore
 echo "macos" >> .gitignore
 echo "linux" >> .gitignore
 
+rm - Rf .git
+
 git init
 git remote add origin $repositorio
 git checkout -b $branch_name
